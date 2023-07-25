@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Technologies
+- Next.js 13.4.4 (don’t use App Router)
+- Tailwind CSS
+- OpenAI API
+- HeroIcon (icon)
+- NextAuth.js + Firebase Authentication + Google Sign-in (google cloud)
+- Firebase Firestore (for storing chat data)
+- react-firebase-hooks (ดึง data จาก firebase)
+- firebase-admin
+- react-hot-toast
+- Vercel (deploy on production)
 
 ## Getting Started
 
@@ -36,16 +46,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-[Technologies]
-- Next.js 13.4.4 (don’t use App Router)
-- Tailwind CSS
-- OpenAI API
-- heroicon (for icon)
-- NextAuth.js + Firebase Authentication + Google Sign-in (google cloud)
-- Firebase Firestore (for store chat data)
-- react-firebase-hooks (ดึง data จาก firebase)
-- firebase-admin
-- react-hot-toast
-- vercel (deploy on production)
 
