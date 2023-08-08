@@ -1,7 +1,7 @@
 # ChatGPT Website Clone
 ## Technologies
-- Next.js 13.4.4 (don’t use App Router)
-- Tailwind CSS
+- Next.js 13.4.4 (Not using the App Router)
+- TailwindCSS
 - OpenAI API
 - HeroIcon (icon)
 - NextAuth.js + Firebase Authentication + Google Sign-in (google cloud)
@@ -12,15 +12,14 @@
 - Vercel (deploy on production)
 
 ## Getting Started
-
-First, run the development server:
+1. Create `.env.local` file
+2. Install and run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+yarn install
+
+# then
+yarn run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
